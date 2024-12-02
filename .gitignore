@@ -1,0 +1,27 @@
+# Ignoriere den .vscode Ordner
+.vscode/
+
+# Ignoriere kompilierte C++-Ausgabedateien
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignoriere alle anderen temporären Build-Dateien
+*.a
+*.so
+*.dll
+*.lib
+*.pdb
+
+# Ignoriere Debug- und Release-Verzeichnisse (falls vorhanden)
+debug/
+Debug/
+release/
+Release/
+
+# Ignoriere temporäre Dateien und Logs
+*.log
+*.tmp
+*.swp
+*.swo
